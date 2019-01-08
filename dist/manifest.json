@@ -1,6 +1,6 @@
 {
   "app.js": "app.bundle.js",
-  "print.js": "print.bundle.js",
+  "entry2.js": "entry2.bundle.js",
   "cat.jpeg": "0ba12498f0e66e125388ecad86143307.jpeg",
   "index.html": "index.html"
 }

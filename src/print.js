@@ -1,1 +1,3 @@
-console.log('print---');
+export default function printMe() {
+    console.log('Updating print.js4...');
+}
