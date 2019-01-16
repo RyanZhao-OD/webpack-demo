@@ -1,12 +1,14 @@
-import _ from 'lodash';
-import printMe from '@/print.js';
+// import _ from 'lodash';
+import printMe from '@/print';
+import {cube} from '@/math';
 import '@/style.css';
 
 function component() {
     var element = document.createElement('div');
     var btn = document.createElement('button');
     element.classList.add('hello');
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+    // element.innerHTML = _.join(['Hello', 'webpack', cube(5)], ' ');
+    element.innerHTML = 'test tree shaking' + cube(5);
 
     btn.innerHTML = 'Click me and check the console!';
     btn.onclick = printMe;
